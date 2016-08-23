@@ -168,6 +168,10 @@ select {
 		padding: 5px 10px;
 		border-left: 4px solid $brand-info;
 	}
+	.entry-title a {
+		color: $brand-info;
+	}
+
 	.archive-title {
 		margin-bottom: 20px;
 	}

@@ -1,15 +1,15 @@
 === Morfeu-Green ===
-Contributors: rodrigo73, gabrielsr
+Contributors: gabrielsr
 Requires at least: WordPress 4.5
 Tested up to: WordPress 4.6
-Version: 1.1.3-rhases
+Version: 1.0-rhases
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, full-width-template, two-columns, right-sidebar, custom-header, custom-background, custom-menu, featured-images, full-width-template, translation-ready
 
 == Description ==
 
-Morfeu is a simple, clean and responsive theme for blogs, magazines and business websites. Features include a front page template with a full-width slider for featured posts, as well as a beautiful and fluid grid system. Made to be easy to use and fast.
+Based in Morfeu, it is a simple, clean and responsive theme for blogs, magazines and business websites. Features include a front page template with a full-width slider for featured posts, as well as a beautiful and fluid grid system. Made to be easy to use and fast.
 
 * Mobile-first, Responsive Layout (Bootstrap)
 * Featured posts on homepage (Slider)
@@ -22,7 +22,7 @@ Morfeu is a simple, clean and responsive theme for blogs, magazines and business
 * Editor style
 * And more...
 
-For more information about Morfeu Theme please go to [GitHub Repository](https://github.com/rodrigo-brito/morfeu-theme).
+For more information about Morfeu Theme please go to [GitHub Repository](https://github.com/rhases/morfeu-theme).
 
 The Morfeu Theme is ready to be used with SASS. The archives of assets SASS folder must be compiled and saved in the theme root. The automation files for Grunt JS can be found in the [theme repository](https://github.com/rhases/morfeu-theme).
 
