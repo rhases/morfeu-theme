@@ -1,11 +1,17 @@
-		</div><!-- .row -->
-	</div><!-- #wrapper -->
+</div><!-- .row -->
+</div><!-- #wrapper -->
 
-	<footer id="footer" role="contentinfo">
-		<div class="container">
-			<p>&copy; <?php echo date( 'Y' ); ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a> - <?php _e( 'All rights reserved', 'morfeu' ); ?> | <?php echo sprintf( __( 'Developed by <a href="%s" rel="nofollow" target="_blank">Rodrigo Brito</a> with Odin &hearts;  - Powered by <a href="%s" rel="nofollow" target="_blank">WordPress</a>.', 'morfeu' ), 'http://rodrigobrito.net', 'http://wordpress.org/' ); ?></p>
-		</div><!-- .container -->
-	</footer><!-- #footer -->
-	<?php wp_footer(); ?>
+<footer id="footer" role="contentinfo">
+<div class="container">
+	<div class="row copyright">
+		<div class="col-lg-12 text-center"><p style="margin: 0px !important">
+		<small>© Rhases Soluções em Tecnologia LTDA &nbsp;
+		<spam class="hidden-xs">&nbsp;-&nbsp;</spam>
+		<spam style="display: inline-block">CNPJ 23.821.354/0001-00</spam></small></p>
+		</div>
+	</div>
+</div><!-- .container -->
+</footer><!-- #footer -->
+<?php wp_footer(); ?>
 </body>
 </html>
