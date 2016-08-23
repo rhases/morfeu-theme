@@ -2,7 +2,7 @@
 Contributors: gabrielsr
 Requires at least: WordPress 4.5
 Tested up to: WordPress 4.6
-Version: 1.0-rhases
+Version: 1.1.4-rhases
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: blog, one-column, full-width-template, two-columns, right-sidebar, custom-header, custom-background, custom-menu, featured-images, full-width-template, translation-ready
@@ -129,4 +129,7 @@ Include SASS base files
 = 1.1.3 =
 * Released: Aug 1, 2016
 
-Fix WordPress coding standards
+= 1.1.4-rhases =
+* Released: Aug 1, 2016
+
+Fork with theme for Rhases Blog
