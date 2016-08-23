@@ -12,3 +12,14 @@ Free WordPress Theme. Made with the forces of [Odin](http://wpod.in/).
 - Grid display with ScrollReveal
 - Ready for infinite-scroll (JetPack)
 - Editor style
+
+# Edit Style
+
+* Edit files in assets/sass, specially \_variables.scss
+* From src directory execute
+** npm install
+** grunt sass
+
+# For a simples installation
+* download the zip directly from github
+* Install Theme from wp-admin
