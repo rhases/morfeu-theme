@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 	</div><!-- .row -->
 </div><!-- #wrapper -->
-<!-- slider for latest posts -->
-<?php get_template_part('slider'); ?>
+<!-- slider for latest posts
+<?php get_template_part('slider'); ?>-->
 <div id="wrapper" class="container">
 	<div class="row">
 		<main id="content" class="<?php echo odin_classes_page_full(); ?>" tabindex="-1" role="main">
