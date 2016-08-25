@@ -1,0 +1,32 @@
+.rp4wp-related-posts ul {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.rp4wp-related-post-content {
+  font-size: larger;
+  color: #3d3e78;
+}
+
+.rp4wp-related-posts ul > li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.rp4wp-related-posts ul > li > p {
+  margin: 0;
+  padding: 0;
+}
+
+.rp4wp-related-post-image {
+  padding-right: 25px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}

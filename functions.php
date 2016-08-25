@@ -136,6 +136,9 @@ function morfeu_enqueue_scripts() {
 	wp_enqueue_script( 'morfeu-html5shiv', $template_url . '/assets/js/polyfill.min.js.js' );
     wp_script_add_data( 'morfeu-html5shiv', 'conditional', 'lt IE 9' );
 
+	// taboola
+ 	wp_enqueue_script( 'taboola', 'https://cdn.taboola.com/libtrc/rhases-br-sc/tfa.js' );
+
 	// General scripts.
 	if ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) {
 		// Scroll reveal.
