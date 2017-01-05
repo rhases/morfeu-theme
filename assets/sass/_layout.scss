@@ -193,6 +193,12 @@ select {
 // Content
 // ==========================================================================
 #main-content, #content {
+	font-family: Roboto,sans-serif;
+  display: block;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 30px;
+
 	.entry-header {
 	}
 	.post, .page {
@@ -214,6 +220,7 @@ select {
 	#main-content {
 		.post, .page {
 			margin: 0;
+
 		}
 	}
 }

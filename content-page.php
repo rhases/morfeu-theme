@@ -5,6 +5,7 @@
 	<div class="conteudo-post">
 		<div class="entry-content">
 			<?php
+				if ( function_exists( 'ADDTOANY_SHARE_SAVE_KIT' ) ) { ADDTOANY_SHARE_SAVE_KIT(); }
 				the_content();
 				wp_link_pages( array(
 					'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'morfeu' ) . '</span>',
