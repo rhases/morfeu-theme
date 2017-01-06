@@ -61,17 +61,12 @@ if ( ! function_exists( 'odin_posted_on' ) ) {
 		}
 
 		// Set up and print post meta information.
-		printf( '<span class="entry-date"> <i class="icon-circle glyphicon glyphicon-calendar"></i> <time class="entry-date" datetime="%s">%s</time></span> <i class="icon-circle glyphicon glyphicon-user"></i> <span class="author vcard">' . __( 'By', 'morfeu' ) . ' <a class="url fn n" href="%s" rel="author">%s</a></span>',
-			esc_attr( get_the_date( 'c' ) ),
-			esc_html( get_the_date() ),
+		printf( '<i class="glyphicon glyphicon-user"></i> <span class="author vcard">' . __( 'By', 'morfeu' ) . ' <a class="url fn n" href="%s" rel="author">%s</a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
 			get_the_author()
 		);
 
-		printf(' <i class="icon-circle glyphicon glyphicon-comment"></i>');
-		comments_number( __( '0 Comments', 'morfeu' ), __( '1 Comment', 'morfeu' ), __( '% Comments', 'morfeu' ) );
-
-		printf(' <i class="icon-circle glyphicon glyphicon-folder-open"></i>');
+		printf('<span>&nbsp|&nbsp <i class="glyphicon glyphicon-folder-open"></i> &nbsp');
 		the_category( ', ' );
 	}
 
@@ -79,12 +74,6 @@ if ( ! function_exists( 'odin_posted_on' ) ) {
 		if ( is_sticky() && is_home() && ! is_paged() ) {
 			echo '<span class="featured-post">' . __( 'Sticky', 'morfeu' ) . ' </span>';
 		}
-
-		// Set up and print post meta information.
-		printf( '<span class="entry-date"> <i class="icon-circle glyphicon glyphicon-calendar"></i>&nbsp;<time class="entry-date" datetime="%s">%s</time></span>',
-			esc_attr( get_the_date( 'c' ) ),
-			esc_html( get_the_date() )
-		);
 	}
 }
 
